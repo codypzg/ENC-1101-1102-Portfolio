@@ -1,0 +1,177 @@
+<!-- webpage begins-->
+<!DOCTYPE html> <!-- declare correct document type for html -->
+<!--
+   'html' is an element
+'lang = "en-us"' is an attribute - modifies how an element behaves
+
+  this is good coding practice for multi-line comments:
+indents should be two spaces. this is easier to read. 
+-->
+<html lang="en-us"> <!-- sets the language -->
+
+
+<!-- head begins here ----------------------------------------->
+<head>
+  <!-- sets character standard encoding to represent symbols --> 
+  <meta charset="UTF-8"/>
+
+  <!--
+    sets viewport: the user's visible area of the web page.
+  so, it tells the browser how to scale the webpage per device.
+   
+    (initial scale is the zoom level when the page is first loaded.)
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- webpage title: what appears in a search engine  -->  
+  <title>Perez-Gilbert ENC 1101/1102</title>
+
+  <!-- I want to do like a menu bar here -->
+  <h3 id="menu-header">Perez-Gilbert ENC 1101 & 1102 e-Portfolio</h3>
+
+  <!--
+      need an <a href=""> element here,
+  but I need to know the url of my site first
+
+      target="_blank" would open the link in a new page, btw.
+  -->
+  <button>Menu</button>
+
+  <h1 id="header1">Background</h1>
+  
+  </head>
+  <!-- head ends here ------------------------------------------>
+
+
+  <!-- body begins here ---------------------------------------->
+  <body>
+  <h2 id="header2">About the Author</h2>
+
+  <style>
+    .self-portrait {
+      width:375px;
+      height:500px;
+    }
+  </style>
+  <img class="self-portrait" src="images/IMG_3030.jpeg">
+  <p>
+    <!--
+        the idea for this paragraph is to give the energy of
+      the back of a book lol- may change the font, size, style, etc.
+    -->
+      <b>Cody Perez-Gilbert is currently a second-year Information Technology
+    student at the University of Central Florida.</b>
+      He chose to write the code for, and design this website as a way to put
+    his skills in HTML, CSS, and JavaScript (JS) to the test.
+      Cody has been editing HTML/CSS/JS templates for over 5 years to put
+    websites on the Internet, but this project would be his first time
+    creating one from the bottom-up.         
+  </p>
+
+  <!-- more space on the page -->
+
+  <h2 id="header2">About the Research</h2>
+  <p>
+     Hack@UCF is the University of Central's Florida collegiate cybersecurity student club.   
+      They teach students offensive and defensive digital security
+    skills through General Body meetings, seminars, workshops, and
+    a beginner cyber defense ("Blue Team") competition, to name a few.
+      Their leadership is made up of Officers, the heads of the organization;
+    Directors, who lead their various Operations teams that provide
+    leadership opportunities; and volunteer team members.
+  </p>
+
+  <h2 id="header2">ENC 1102 Syllabus - at a Glance</h2>
+
+  <h3 id="header3">Process Works</h3>
+  <p>
+      Process Works are weekly discussion posts, each with a different prompt.
+  </p>
+  <p>    
+      "These assignments help you toward your major assignments and may consist of
+    interacting and communicating with fellow students through online Discussion Forums hosted through Webcourses.
+
+      You will be required to compose postings in response to prompts
+    (including planning and drafting for major assignments),
+      as well [as] reply to the posts of fellow students."
+
+    (Rachel Marks, "Fall 2025 ENC 1102 M141", UCF Simple Syllabus)
+  </p>
+
+  <h3 id="header3">Peer Review</h3>
+  <p>
+      "You will be required to conduct a Peer Review for every Major Assignment.
+
+    During this time your instructor will pair you with other students in class
+      and provide direction for conducting peer review that will be mutually beneficial for all students."
+
+    (Rachel Marks, "Fall 2025 ENC 1102 M141", UCF Simple Syllabus) 
+  </p>
+
+  <!--
+      I haven't 100% decided yet if I want the actual assignment titles ("Research Proposal") in the subheaders.
+  Like, should I save that for each individual webpage? Or does it contextualize the syllabus?
+  -->
+  <h3 id="header3">Major Assignment 1: Research Proposal</h3>
+  <p>
+      "In an initial investigation into their research site,
+    students will propose methods of primary research for investigating how writing and genre is used by their discourse community
+      and create a plan for completing their research.
+
+    Students will receive peer-feedback on their first draft of this assignment before turning in their revised drafts."
+      (Rachel Marks, "Fall 2025 ENC 1102 M141", UCF Simple Syllabus)
+  </p>
+
+  <h3 id="header3">Major Assignment 2: Annotated Bibliography with CARS Model</h3>
+  <p>
+      "Students will annotate 4 primary sources from their research site and at least 5 secondary sources
+    (3 must be scholarly sources found through library research, 2 may be found in course texts).
+
+      Students will also craft an initial CARS Model introduction
+    which will synthesize their sources and contextualize their annotations.
+
+      Students will receive peer-feedback on their first draft of this assignment befroe turning in their revised drafts."
+    (Rachel Marks, "Fall 2025 ENC 1102 M141", UCF Simple Syllabus)
+  </p>
+  
+  <h3 id="header3">Major Assignment 3: Academic Research Paper</h3>
+  <p>
+      "Students will use the secondary and primary data that they have collected throughout the semester to craft a researched argument.
+
+    A complete paper will include an introduction that utilizes the CARS Model,
+      including (1) a literature review that synthesizes secondary research,
+   (2) will make a claim based on their research findings,
+      (3) will describe their methods for primary data,
+    (4) will provide a detailed data analysis which provides insight into their claim,
+      and (5) conclude by discussing the implications of their research."
+
+    Students will receive peer-feedback on their first draft of this assignment befroe turning in their revised drafts."
+      (Rachel Marks, "Fall 2025 ENC 1102 M141", UCF Simple Syllabus)
+  </p>
+
+  <h3 id="header3">Major Assignment 4: e-Portfolio</h3>
+  <p>
+      "ENC 1101 and ENC 1102 use ePortfolios to demonstrate student learning over the course of the semester.
+    ePortfolios encourage you to reflect on the course learning outcomes and your knowledge and understanding of writing.
+
+      You'll create a website (e.g., an ePortfolio) that showcases your writing
+    and demonstrates how you've engaged with each student learning outcome in this course.
+      You should provide evidence of your knowledge about writing and how language works.
+    This involves both descriptive and reflective writing.
+
+      ePortfolios are multimodal, so you should think about
+    how a website provides opportunities for you to use various modes to communicate effectively
+      (e.g., images, videos, audio, text).
+      
+    ePortfolios should show
+  (1) <i>what</i> kinds of learning and writing occurred during the semester,
+    (2) <i>how</i> those activities were meaningful to your understanding of writing, rhetoric, language, and literacy,
+  and (3) <i>why</i> this knowledge is important for future writing situations."
+  </p>
+
+  </body>
+  <!-- body ends here ------------------------------------------>
+
+
+<!-- webpage ends -->  
+</html>
